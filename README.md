@@ -13,7 +13,7 @@
 </div>
 
 ---
-📌 Overview
+##📌 Overview
 This project is a Text-to-Text AI Agent powered by the Qwen language model. It takes user-provided text and generates a transformed response based on the given instruction.
 
 The model can be used for tasks such as summarization, paraphrasing, explanation, translation, content generation, and tone adjustment.
@@ -22,7 +22,7 @@ Input Text → AI Model → Transformed Output
 The project demonstrates how a lightweight instruction-tuned LLM can be used for practical text transformation tasks.
  ---
 
-🎯 Key Features
+##🎯 Key Features
 📝 Text Summarization — Condense long text into shorter summaries.
 🔄 Paraphrasing — Rewrite text while preserving its meaning.
 🌐 Translation — Translate text into different languages.
@@ -32,7 +32,7 @@ The project demonstrates how a lightweight instruction-tuned LLM can be used for
 🤖 Instruction Following — Generate responses based on natural-language instructions.
 
 ---
-🧠 Model
+##🧠 Model
 
 Qwen/Qwen2.5-1.5B-Instruct
 
@@ -42,7 +42,7 @@ The model is accessed through the Hugging Face Transformers ecosystem.
 
 ---
 
-🛠️ Tech Stack
+##🛠️ Tech Stack
 Language: Python 3.10+
 AI Model: Qwen/Qwen2.5-1.5B-Instruct
 AI Framework: Hugging Face Transformers
@@ -51,7 +51,7 @@ Environment: Jupyter Notebook / VS Code
 Version Control: Git & GitHub
 
 ---
-📂 Project Structure
+##📂 Project Structure
 ```text
 Text-to-Text/
 │
@@ -66,7 +66,7 @@ Text-to-Text/
 ```
 ---
 
-⚙️ Installation & Setup
+##⚙️ Installation & Setup
 ```bash
 1. Clone the repository
 git clone https://github.com/Kashaf-cs/Text-to-Text-Agent.git
@@ -100,14 +100,14 @@ Never upload your actual API/token credentials to GitHub.
 Open the project in Jupyter Notebook or VS Code and run the notebook cells to interact with the text-to-text model.
 
 ---
-⚠️ Limitations
+##⚠️ Limitations
 Output quality depends on the model's capabilities and the input prompt.
 The model may occasionally generate inaccurate or incomplete information.
 Running the model locally can require significant computational resources depending on the setup.
 Generated content should be reviewed before being used for important purposes.
  
  ---
-🔮 Future Improvements
+##🔮 Future Improvements
 
 Add a user-friendly web interface
 
@@ -124,14 +124,14 @@ Experiment with larger and more capable Qwen models
 Deploy the application for online access
 
 ----
-🤝 Contributing
+##🤝 Contributing
 
 Pull requests are welcome.
 
 For major changes, please open an issue first to discuss what you would like to change.
 
 
-📜 License
+##📜 License
 This project is distributed under the MIT License.
 
 ## 👩‍💻 Connect With Me
