@@ -20,6 +20,7 @@ The model can be used for tasks such as summarization, paraphrasing, explanation
 
 Input Text → AI Model → Transformed Output
 The project demonstrates how a lightweight instruction-tuned LLM can be used for practical text transformation tasks.
+ ---
 
 🎯 Key Features
 📝 Text Summarization — Condense long text into shorter summaries.
@@ -30,6 +31,7 @@ The project demonstrates how a lightweight instruction-tuned LLM can be used for
 🎨 Tone Adjustment — Adapt text to different writing styles.
 🤖 Instruction Following — Generate responses based on natural-language instructions.
 
+---
 🧠 Model
 
 Qwen/Qwen2.5-1.5B-Instruct
@@ -38,6 +40,8 @@ The project uses an instruction-tuned Qwen model designed to follow user instruc
 
 The model is accessed through the Hugging Face Transformers ecosystem.
 
+---
+
 🛠️ Tech Stack
 Language: Python 3.10+
 AI Model: Qwen/Qwen2.5-1.5B-Instruct
@@ -45,7 +49,10 @@ AI Framework: Hugging Face Transformers
 Model Platform: Hugging Face
 Environment: Jupyter Notebook / VS Code
 Version Control: Git & GitHub
+
+---
 📂 Project Structure
+```text
 Text-to-Text/
 │
 ├── .env.example
@@ -56,60 +63,50 @@ Text-to-Text/
 ├── src/
 │   ├── Text_to_Text_reuseable.ipynb
 │   └── text.ipynb
-│
+```
+---
 
 ⚙️ Installation & Setup
+```bash
 1. Clone the repository
 git clone https://github.com/Kashaf-cs/Text-to-Text-Agent.git
 cd Text-to-Text-Agent
+```
 2. Create a virtual environment
+```bash
 python -m venv venv
 
 Activate it on Windows:
 
 venv\Scripts\activate
+```
 
-On Linux/Mac:
-
-source venv/bin/activate
 3. Install dependencies
+```bash
 pip install -r requirements.txt
-4. Setup environment variables
+```
 
+4. Setup environment variables
+```bash
 Create a .env file and add your Hugging Face token:
 
 HF_TOKEN=your_huggingface_token_here
 
 Never upload your actual API/token credentials to GitHub.
+```
 
 5. Run the Notebook
 
 Open the project in Jupyter Notebook or VS Code and run the notebook cells to interact with the text-to-text model.
 
-📊 Example Usage
-Input
-Explain artificial intelligence in simple words.
-Instruction
-Explain this for a beginner.
-Output
-Artificial Intelligence is a technology that allows computers
-to perform tasks that normally require human intelligence,
-such as understanding language, recognizing images, and making decisions.
-🔄 Example Tasks
-Task	Example
-📝 Summarize	Long article → Short summary
-🔄 Paraphrase	Rewrite text → Same meaning, different wording
-🌐 Translate	English → Urdu
-💡 Explain	Technical concept → Simple explanation
-✍️ Generate	Prompt → Generated content
-🎨 Change Tone	Casual text → Professional text
-
+---
 ⚠️ Limitations
 Output quality depends on the model's capabilities and the input prompt.
 The model may occasionally generate inaccurate or incomplete information.
 Running the model locally can require significant computational resources depending on the setup.
 Generated content should be reviewed before being used for important purposes.
-
+ 
+ ---
 🔮 Future Improvements
 
 Add a user-friendly web interface
@@ -126,6 +123,7 @@ Experiment with larger and more capable Qwen models
 
 Deploy the application for online access
 
+----
 🤝 Contributing
 
 Pull requests are welcome.
